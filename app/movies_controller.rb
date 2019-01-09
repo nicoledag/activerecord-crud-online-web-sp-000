@@ -66,7 +66,7 @@ def can_be_found_updated_and_saved
 
   UPDATE Movie
   SET title= 'Even Awesomer Flick',
-  WHERE title = 'Awesome Flick';
+  WHERE Movietitle = 'Awesome Flick';
   movie
 end
 
